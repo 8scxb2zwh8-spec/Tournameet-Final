@@ -649,6 +649,7 @@ public class Main extends javax.swing.JFrame {
         jLabel16.setText("Maps");
 
         back1.setBackground(new java.awt.Color(255, 59, 0));
+        back1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         back1.setBorder(null);
         back1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -711,6 +712,7 @@ public class Main extends javax.swing.JFrame {
         jLabel11.setText("Shop");
 
         backk.setBackground(new java.awt.Color(255, 59, 0));
+        backk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         backk.setBorder(null);
         backk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -719,6 +721,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         jButton16.setBackground(new java.awt.Color(255, 59, 0));
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-add-to-cart-20.png"))); // NOI18N
         jButton16.setBorder(null);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -780,6 +783,7 @@ public class Main extends javax.swing.JFrame {
         jLabel17.setText("Videos and Livestreams");
 
         back3.setBackground(new java.awt.Color(255, 59, 0));
+        back3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         back3.setBorder(null);
         back3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -842,6 +846,7 @@ public class Main extends javax.swing.JFrame {
         jLabel18.setText("Teams and Friends");
 
         back4.setBackground(new java.awt.Color(255, 59, 0));
+        back4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         back4.setBorder(null);
         back4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -904,6 +909,7 @@ public class Main extends javax.swing.JFrame {
         jLabel19.setText("My Profile");
 
         back5.setBackground(new java.awt.Color(255, 59, 0));
+        back5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         back5.setBorder(null);
         back5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1005,6 +1011,7 @@ public class Main extends javax.swing.JFrame {
         jLabel14.setText("Chats");
 
         back7.setBackground(new java.awt.Color(255, 59, 0));
+        back7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lastttt/icons8-return-20.png"))); // NOI18N
         back7.setBorder(null);
         back7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1123,7 +1130,6 @@ public class Main extends javax.swing.JFrame {
         pst.setString(2, userPassword);
         pst.executeUpdate();
 
-        JOptionPane.showMessageDialog(this, "Sign up successful!");
 
         // Clear fields
         email.setText("");
@@ -1131,7 +1137,7 @@ public class Main extends javax.swing.JFrame {
 
         // Go to Login page
         CardLayout cl = (CardLayout) mainPanel.getLayout();
-        cl.show(mainPanel, "Login");
+        cl.show(mainPanel, "Mainmenu");
 
     } catch (SQLException e) {
 
